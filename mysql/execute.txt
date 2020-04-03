@@ -1,0 +1,12 @@
+// Execute the following command to create database and table
+
+create database studentsrecord;
+
+use studentsrecord;
+
+create table users(
+EmailId varchar(50) primary key,
+Password varchar(50) not null
+);
+
+select * from users;
